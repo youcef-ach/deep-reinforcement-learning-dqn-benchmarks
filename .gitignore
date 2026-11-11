@@ -24,3 +24,4 @@ checkpoints/
 # Temporary outputs & logs
 *.log
 runs/
+

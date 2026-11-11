@@ -4,3 +4,4 @@ gymnasium[box2d,atari]>=0.29.0
 ale-py>=0.8.1
 matplotlib>=3.7.0
 pytest>=8.0.0
+
