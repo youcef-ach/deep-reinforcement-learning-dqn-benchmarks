@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest & coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Heavy archives & binaries
+*.zip
+*.tar.gz
+*.sha256
+checkpoints/
+
+# IDE / Editor artifacts
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Temporary outputs & logs
+*.log
+runs/
