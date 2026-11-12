@@ -1,7 +1,7 @@
 torch>=2.0.0
 numpy>=1.24.0
-gymnasium[box2d,atari]>=0.29.0
-ale-py>=0.8.1
+gymnasium[box2d,atari]>=1.0,<2
+ale-py>=0.10
 matplotlib>=3.7.0
 pytest>=8.0.0
 

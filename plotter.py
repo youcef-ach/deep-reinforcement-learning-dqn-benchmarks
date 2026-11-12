@@ -18,8 +18,8 @@ plt.rcParams.update({
     "figure.dpi": 300,
 })
 
-RESULTS_DIR = r"C:\Users\achou\Documents\DQN_Homework_2026\results"
-FIGURES_DIR = r"C:\Users\achou\Documents\DQN_Homework_2026\figures"
+RESULTS_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "results")
+FIGURES_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "figures")
 os.makedirs(FIGURES_DIR, exist_ok=True)
 
 

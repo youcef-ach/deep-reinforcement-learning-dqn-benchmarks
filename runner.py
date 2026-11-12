@@ -173,7 +173,7 @@ def train_agent(
     variant_name: str,
     seed: int,
     config: Dict[str, Any],
-    save_dir: str = "C:/Users/achou/Documents/DQN_Homework_2026/results",
+    save_dir: str = os.path.join(os.path.dirname(os.path.abspath(__file__)), "results"),
 ) -> Dict[str, Any]:
     """Trains agent on environment according to configuration and logs all metrics.
     
@@ -415,11 +415,6 @@ def train_agent(
         "bias_metrics": bias_metrics,
         "checkpoint_path": checkpoint_path,
     }
-
-    with open(result_path, "w") as f:
-        json.dump(results, f)
-
-    return results
 
     with open(result_path, "w") as f:
         json.dump(results, f)

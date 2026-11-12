@@ -5,10 +5,9 @@ import time
 import argparse
 from typing import Dict, Any, Optional, List
 
-sys.path.append(r"C:\Users\achou\Documents\DQN_Homework_2026")
 from runner import train_agent
 
-WORKSPACE_DIR = r"C:\Users\achou\Documents\DQN_Homework_2026"
+WORKSPACE_DIR = os.path.dirname(os.path.abspath(__file__))
 RESULTS_DIR = os.path.join(WORKSPACE_DIR, "results")
 CHECKPOINTS_DIR = os.path.join(WORKSPACE_DIR, "checkpoints")
 MANIFEST_PATH = os.path.join(WORKSPACE_DIR, "progress_manifest.json")

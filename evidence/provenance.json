@@ -1,0 +1,455 @@
+{
+  "description": "Original academic result files. Only checkpoint_path changed to its basename; JSON whitespace normalized. Model checkpoints are not distributed.",
+  "runs": [
+    {
+      "file": "ALE_Pong-v5_Double_DQN_seed0.json",
+      "original_sha256": "cfa3a92add753c6d02ea53f058fcde71d537ba3e88853fc7eabe7561a630139f",
+      "published_sha256": "75c831e5ae0e9a950e396986e4f95e5bc9473c73803c2e71a58b1e25fa9fad4a"
+    },
+    {
+      "file": "ALE_Pong-v5_Double_DQN_seed1.json",
+      "original_sha256": "784ed5c7f8a4183c0b0f3abb4afcb62c458c3d43dc335a9301cd75333c409104",
+      "published_sha256": "ed3ee4c29c6a59b31d4b7ea895a260d5b2ca963ebf5d6fd6d3d62c9f423953c3"
+    },
+    {
+      "file": "ALE_Pong-v5_Double_DQN_seed2.json",
+      "original_sha256": "c22efa67d55458b203b0e5055379591b9e102719fb7144d401a6407e81e372e9",
+      "published_sha256": "0e63f0b2375b2241bf17172076e54fed50354f4c0c94a062b1a52716b1ad7f28"
+    },
+    {
+      "file": "ALE_Pong-v5_DQN_hard_seed0.json",
+      "original_sha256": "b9b38bc39134f1b9326c8b58a1b52fc7ce4af997f1bdddb3889ce92ce35fd057",
+      "published_sha256": "6b48f9997cad7dbabbfbf4d757b1948ee918ea08bcb0974b8b06e2945c272b0a"
+    },
+    {
+      "file": "ALE_Pong-v5_DQN_hard_seed1.json",
+      "original_sha256": "f4c063ce9d2786fad5a1c5bf807350c5e036412e737437e53c567d835a8b4134",
+      "published_sha256": "6e9f50fc4531740af3f8217b1705208f0c914d09f7573e4c189a30d9da572d78"
+    },
+    {
+      "file": "ALE_Pong-v5_DQN_hard_seed2.json",
+      "original_sha256": "734c836f50919d95285e75aa09675bfc0ea9a6fba73b8fee62e52f722eecdaea",
+      "published_sha256": "ddaa3099f02838e47dff5ec2760e0a42facd83b32ffb073a66cfbf612a158430"
+    },
+    {
+      "file": "ALE_Pong-v5_DQN_no_replay_seed0.json",
+      "original_sha256": "5ca83fd48a01f6444d58724880e91e10e3aef6ac84583108b80c79b307996407",
+      "published_sha256": "202330a463486212574a3511d5f372b3e227d930235d3993f60a32fd588184d2"
+    },
+    {
+      "file": "ALE_Pong-v5_DQN_no_replay_seed1.json",
+      "original_sha256": "f704af1e4729e65de9cdc947554f337ab9f802178cf2bb56a99657bcc74e78db",
+      "published_sha256": "4a6cac977c41f403a2243478e872929579c10f0d663126e92147d1b19846a793"
+    },
+    {
+      "file": "ALE_Pong-v5_DQN_no_replay_seed2.json",
+      "original_sha256": "d051de6920b98013a304da7dc78501a32ebfff86d74221b16e8c64dbea1c9f81",
+      "published_sha256": "10ed3e67b0651701b4239cbbbe10bf147d3f36984f8c53d534d7e7924110d8dd"
+    },
+    {
+      "file": "ALE_Pong-v5_DQN_no_target_seed0.json",
+      "original_sha256": "282b6092bac63bfe410f4bf7ecc79b2e740dfef720f28ca0ee84d2c4db35c604",
+      "published_sha256": "d77a0694c9f314a1958a229ce07b502cf6d393867b18bae73f1011fc21bb3343"
+    },
+    {
+      "file": "ALE_Pong-v5_DQN_no_target_seed1.json",
+      "original_sha256": "b5baba4dca929d0fa55d7ead8e785780aff157d98bee36e8e53ec54d2209b2ec",
+      "published_sha256": "6e4c16d4b7067d2304b5c2f3f04aa81b31f6c1f6759a6ff98d8aac8fc890d02c"
+    },
+    {
+      "file": "ALE_Pong-v5_DQN_no_target_seed2.json",
+      "original_sha256": "9f8e037233d477572ea040562b7966f930eb1575f2860d06b2217356be05dca8",
+      "published_sha256": "d7cc74fa484ae57eb4a18d9526c3d2462cb4ddce9d443f6f0aa4221cf4f49a1e"
+    },
+    {
+      "file": "ALE_Pong-v5_DQN_soft_seed0.json",
+      "original_sha256": "7bfeae8f3bbbc97faaaeaac10ef233c43941c7332ddd8d51da1ce4a3d70706ca",
+      "published_sha256": "754946d8ec828b69a50ef615467a23e1b55a60a3b48475721f252ed302c1e48e"
+    },
+    {
+      "file": "ALE_Pong-v5_DQN_soft_seed1.json",
+      "original_sha256": "0fcd9cd5eed24eb13f0997e9af63021aa3457c28c5cbac620fa8a771f1df4342",
+      "published_sha256": "f732d3e8b84bbccd065e61a74f12c7dff16e562bd669c643ad3fd9cc597f99f1"
+    },
+    {
+      "file": "ALE_Pong-v5_DQN_soft_seed2.json",
+      "original_sha256": "c6a576e0b12b3c0f5968e8cf6e2033803c5a4df55dcc9ba7750319e4f0a499ce",
+      "published_sha256": "462a3685e6e07de4f3d6730bcea2f8fa9fa248c0d76e95f303ba6e71f8f53837"
+    },
+    {
+      "file": "ALE_Pong-v5_Dueling_Double_DQN_seed0.json",
+      "original_sha256": "039b8faafaef59ffd962d6814736ebfaaf5a45f14c3d30bd9cad2de4d92f86ab",
+      "published_sha256": "ed555ec07f682760661c87f2365f4bbdda66ea8a7c0363241ec12cc1cec5f7f4"
+    },
+    {
+      "file": "ALE_Pong-v5_Dueling_Double_DQN_seed1.json",
+      "original_sha256": "d66441f822c80613dc08ab9af9c3a46a7d245bdb1307b750cfa21cec9cae2203",
+      "published_sha256": "20f692e3fc0dec3efeca3e7e46e460322c0d7620d6cd7e742220af8ae6ca81d5"
+    },
+    {
+      "file": "ALE_Pong-v5_Dueling_Double_DQN_seed2.json",
+      "original_sha256": "38f4ab2706bf8ce51e0a5960b20e4fc607b5c7c19b06c609ebd82eaeca4cde39",
+      "published_sha256": "38cd4818ca2364d17f1560549696c9986b85ec5f96dd2c7b2948d120fa7a3051"
+    },
+    {
+      "file": "ALE_Pong-v5_Dueling_DQN_seed0.json",
+      "original_sha256": "64b2c687931bddf426f05f4d65b8ab4ecaf92206edd3125e2dabc8d60aa226cc",
+      "published_sha256": "9d3928cc4f3b5b1198ddb4d2075fc279a2f0248846961b3d19de6cdc532452cf"
+    },
+    {
+      "file": "ALE_Pong-v5_Dueling_DQN_seed1.json",
+      "original_sha256": "3be0899b6f1999b4e93de018beba5c979715ecbcd04ff68713c1162539e7a2b8",
+      "published_sha256": "0f5ff50af38dde790300273dc0dd3ebe51cff81a3917fcf3c21ecdf0eeafad49"
+    },
+    {
+      "file": "ALE_Pong-v5_Dueling_DQN_seed2.json",
+      "original_sha256": "35ec29addac2ae8f9011ccbdf549473294e5ba469110100259d71a4fbe34f1a5",
+      "published_sha256": "4873913d5ac203b535112ca5626754dc20a824dbbfde90d1abf3252ef174d829"
+    },
+    {
+      "file": "CartPole-v1_Double_DQN_seed0.json",
+      "original_sha256": "985b65f79f196b033013d734b35b9cfb6ef986229e5d1c6613061e25c26eb090",
+      "published_sha256": "4a8b7dcd4990b7fece37082ff3e64146998cb8847c9fa4d612d30bb08b69d71e"
+    },
+    {
+      "file": "CartPole-v1_Double_DQN_seed1.json",
+      "original_sha256": "c51e47f684d2632a7ba8a296ec95b57f8bac6b8eec6c07c6240b60acbb874eec",
+      "published_sha256": "21b739bd5062e58a5a75d9ae25ccff5e1e405092c860d3443c6a6e9a19cb0931"
+    },
+    {
+      "file": "CartPole-v1_Double_DQN_seed2.json",
+      "original_sha256": "5d56148a976676c4bed4dfbe65981a93a4e81b7ba076b3071af1a533338d66c7",
+      "published_sha256": "f82fe61282475d269b8a64550db8e676407e7a788067c37ab6b5b5c651a75055"
+    },
+    {
+      "file": "CartPole-v1_DQN_hard_seed0.json",
+      "original_sha256": "032de94871ea24300362934805e7aeb0887fd5f4b59389a79e370d36a6d93488",
+      "published_sha256": "79e7ef48817efaabd7a6e2a749e97e2b7321158e33ce584ebd128073caf74047"
+    },
+    {
+      "file": "CartPole-v1_DQN_hard_seed1.json",
+      "original_sha256": "77ec87dffe1416e750b306149f4a4fe27e7930ccee845baa88cd5e3236904981",
+      "published_sha256": "1bd9de36247f1928c9512011f705425aa2690e971a9d4f34496423ea293f66fc"
+    },
+    {
+      "file": "CartPole-v1_DQN_hard_seed2.json",
+      "original_sha256": "bc75d6367aa5215826f98822c4ffb5da1c610681724643ddc2acfea631ae90fb",
+      "published_sha256": "30ced312671b5e7dc757fb0708034aeb68ef620349ff94afd808209ddcf41e77"
+    },
+    {
+      "file": "CartPole-v1_DQN_no_replay_seed0.json",
+      "original_sha256": "33b3b0df874a1a673bd5fcf8b2149a9113d271cf30eab1c4eb5e1dc03371ee3c",
+      "published_sha256": "153b917fe107519334c16a48eeaf4efbd5f6af9f958a0011e5fedb383af022ba"
+    },
+    {
+      "file": "CartPole-v1_DQN_no_replay_seed1.json",
+      "original_sha256": "c2f5105e81cfe0ffd951b068068b689a96126250f3e940654bbbea2bc801c0ba",
+      "published_sha256": "1e18651f0a8e129c456ad14c697c04780f852708a231595d28444c02fd8eaf5f"
+    },
+    {
+      "file": "CartPole-v1_DQN_no_replay_seed2.json",
+      "original_sha256": "728fd498b7e0eeabdfac9f3b849d4728fbed7c67491ca9f5bcef724a881259bf",
+      "published_sha256": "13ef8a70ce83b57ff828fa0343c3800531832fd1ca5cadba9074bebac35bd319"
+    },
+    {
+      "file": "CartPole-v1_DQN_no_target_seed0.json",
+      "original_sha256": "252d4d4504b427b700f96a83b730dcf069a8d15628fd325b41b54253d1dd3492",
+      "published_sha256": "4a56b60bfef3277e7d0f5c752618c451077222322b2cc9f957f871cbe115320c"
+    },
+    {
+      "file": "CartPole-v1_DQN_no_target_seed1.json",
+      "original_sha256": "e708aab30883243095c6456a480e755be10d6f0de72b7f3b42f5b9816e77751c",
+      "published_sha256": "f90c5d3b5ea4a50b282fcddf66c3bb903a0a8e504e35728fc78807c8fb29d7c0"
+    },
+    {
+      "file": "CartPole-v1_DQN_no_target_seed2.json",
+      "original_sha256": "94e72ecb47ff6febfbcfbd6f01866e72d5be235f0ce77c9e72d5a8690d422fcd",
+      "published_sha256": "502816448306707fe954f39ca804ccb69328148f91496938deec743904e74a0f"
+    },
+    {
+      "file": "CartPole-v1_DQN_soft_seed0.json",
+      "original_sha256": "c5c135a18c862fb5f1cf7fdab77805d585654a0d92f1a2ac182b1afb236f8cea",
+      "published_sha256": "c2d1490742d58135fdc6a04d1038fd2ed8eace8d4d6016928d892c6d085c2e8b"
+    },
+    {
+      "file": "CartPole-v1_DQN_soft_seed1.json",
+      "original_sha256": "ab706097b9713c2a79eb2fe89ebcf58025cd2e8462eaa2029113fd6711baa63e",
+      "published_sha256": "71bab6c3c8918080b60de37ec440d4a95bd251a4a036fdcc363ce89c7abe1e51"
+    },
+    {
+      "file": "CartPole-v1_DQN_soft_seed2.json",
+      "original_sha256": "df83e98774236bbb6cdc8f83fbc8ee70dee36b60b5d57cf3e5b9e51460bf7b96",
+      "published_sha256": "f64d3c69d676481c70a7f50cb8b8b85ed228d9efa7afeba3efaef2e7299ebc69"
+    },
+    {
+      "file": "CartPole-v1_Dueling_Double_DQN_seed0.json",
+      "original_sha256": "cd8e52795ee6e9ec0049830120d1d09e50f2321141ecb18aba6773c331565b07",
+      "published_sha256": "0cc56205681aa6a3cf1b71e5ba2ff907ce3f0d2ce3d1bd60fb66225e46726744"
+    },
+    {
+      "file": "CartPole-v1_Dueling_Double_DQN_seed1.json",
+      "original_sha256": "2f6e23d5df48135deaf8cbed2668ca2b0f7b1bacf42ada7f2d271538f1160e75",
+      "published_sha256": "f9a7ea7dc0819d01b3ae883ed4840cebd53f2c5fcb69b0294b6cb09cc35a2e10"
+    },
+    {
+      "file": "CartPole-v1_Dueling_Double_DQN_seed2.json",
+      "original_sha256": "4dd155d890d0d29d522514ac55dc9bc457bb840d5fc6ce999eb943921ffcb80a",
+      "published_sha256": "fe13368b81c13a836b22994e9ce9b9de09d7636ce2f67e3f85a6c2cd5e4054ee"
+    },
+    {
+      "file": "CartPole-v1_Dueling_DQN_seed0.json",
+      "original_sha256": "70df77148f2b8ba6087eb90ffa91dc97a252c8577be3fae358b3de410121750e",
+      "published_sha256": "cafeb1ea4ac4e753c23daa243aaaa61e8fd9a555fa64e64e7c409b0a6f470451"
+    },
+    {
+      "file": "CartPole-v1_Dueling_DQN_seed1.json",
+      "original_sha256": "5fea550d8ad5f1f50a748f7f99b87cdb854f4426ecd69785a1fcda5d8122dc16",
+      "published_sha256": "fc7f56c12c4284db705c42ab4f7b62691a159fb42bb2e277979bdcb3e9f3fe0c"
+    },
+    {
+      "file": "CartPole-v1_Dueling_DQN_seed2.json",
+      "original_sha256": "c34f70f925c6c20824d1cd5dcd00e4383d0bc201140a8bfac02c565884293a80",
+      "published_sha256": "6ca1695e7b13409dad52f6312dee2c37c1ebfe4838d8fe7430761de9a5735d1a"
+    },
+    {
+      "file": "LunarLander-v3_Double_DQN_seed0.json",
+      "original_sha256": "77f5a1f131e5a2a2a4515860c6cf216e8283a9b58c3c09890fcf5dae8cc1c171",
+      "published_sha256": "0a7471900ce7ae0bee27eef7eac9d9c9b3404890661fa6c6eff0d8d8807c933e"
+    },
+    {
+      "file": "LunarLander-v3_Double_DQN_seed1.json",
+      "original_sha256": "36c71e66a615915abc4c343e597931cccfae78baae99706d2439cbcbd2ffba71",
+      "published_sha256": "0ea73b12c26f700edd41ebde9d6f95b16f773fbc73c384bbec4425b9f8cbdb03"
+    },
+    {
+      "file": "LunarLander-v3_Double_DQN_seed2.json",
+      "original_sha256": "85f47e02ea05efccd5f2ae9bc91b35f59be190ff59d7dfc55b2ded3b35414491",
+      "published_sha256": "acd3f0ff50a2c1f0798c79066763852b40ac1aea3d00456670384fef48d54f26"
+    },
+    {
+      "file": "LunarLander-v3_DQN_hard_seed0.json",
+      "original_sha256": "e704457ff0e3f5aa7f13f35858f4c3bcec5538f342854baf20259284130760f0",
+      "published_sha256": "676a04cd24984011e9fd83d9fa9b6deefe80ce91ce0f32272c36affaaf8d018c"
+    },
+    {
+      "file": "LunarLander-v3_DQN_hard_seed1.json",
+      "original_sha256": "82c81187b6eeec4b3a327a28b7b5b396b3966a4987811e55010fb613c5ee1450",
+      "published_sha256": "46fa89c05601bb27c65b2a8a4b49306fa80f98bff079a0acf7e9874ef292c809"
+    },
+    {
+      "file": "LunarLander-v3_DQN_hard_seed2.json",
+      "original_sha256": "9757079ce6ebb3b7b92da6b6f0f7afe3f7a8fca6457aea0a50fb9613dfcf6732",
+      "published_sha256": "5cc8943f5530d24b6eab62e2977af38af60b6c6aead37f1e73f574057b440fd2"
+    },
+    {
+      "file": "LunarLander-v3_DQN_no_replay_seed0.json",
+      "original_sha256": "a30c00556416ad28f624d9856a4e6cbbea5a9d152a403fd881ec838e9067e2cc",
+      "published_sha256": "4e0086a0bc7cc640247bc07827faf8bcf9a3da1e59f767f629e76c495be2d5d7"
+    },
+    {
+      "file": "LunarLander-v3_DQN_no_replay_seed1.json",
+      "original_sha256": "aa7759c1cae9dc3d1ead97e2581924e0812b5561494b4d0ae773c2ab900d19c3",
+      "published_sha256": "531fedc112a3c796f902ec6e3818dc7c8e7e775e87abfea6ab162024cf3fe2f2"
+    },
+    {
+      "file": "LunarLander-v3_DQN_no_replay_seed2.json",
+      "original_sha256": "a9c571fb17d275f9faf236db1e2557950e55c3fe3dac31e01f872c491bc7ce34",
+      "published_sha256": "c375550759e46dd0ab850ccc9969d682f580d6f9dcf5128a33fcf4e448ef68e4"
+    },
+    {
+      "file": "LunarLander-v3_DQN_no_target_seed0.json",
+      "original_sha256": "d012c3d53bacf01b11c165fb67adc09a7c592c2a0c94efccc7a72a64b815303e",
+      "published_sha256": "774c980c2cd2c92b4a97465802ed7d0e03475ed362ad5650e9b64aaca0fa44f4"
+    },
+    {
+      "file": "LunarLander-v3_DQN_no_target_seed1.json",
+      "original_sha256": "026fa4fceee448219e1f34bfd022706c891a9f9d0125b05cc0ffd18550da83f0",
+      "published_sha256": "204532485d52ef51e0bef538c2e968e09521c8567d7951e535745f2906d99067"
+    },
+    {
+      "file": "LunarLander-v3_DQN_no_target_seed2.json",
+      "original_sha256": "514bf716db474fd1f77f2e3ab173ec4700141fc7b771b4a9256f706d496f5881",
+      "published_sha256": "8e2df43aee52b63febe721cb2d42d2dc7151eceecc4a76c85ae9cd315db0df7f"
+    },
+    {
+      "file": "LunarLander-v3_DQN_soft_seed0.json",
+      "original_sha256": "8d61b167fe19a923adf655b93f7984035ee078d87e3854bfe9a0fb81d794734e",
+      "published_sha256": "9c69835409f2bf09dc5ef2de698808c4be66e86a74070715422b69b0b22db6be"
+    },
+    {
+      "file": "LunarLander-v3_DQN_soft_seed1.json",
+      "original_sha256": "50cbeeb7b8ac083fb5bd6b7835a19a1590e28556c5bc0a101240a1281af2396b",
+      "published_sha256": "7e837dca214ce9946e0ff824597253659940e3a6adc4d9892e6aca1a16be05ea"
+    },
+    {
+      "file": "LunarLander-v3_DQN_soft_seed2.json",
+      "original_sha256": "1c057f3592dfbd803c95af242fe66b502b995951db4d63f73baf325aefe8ab46",
+      "published_sha256": "c45cd6103c0ab8b06e2061091ccdd35ea7bda36ec0c0e5d631efa572cbde367e"
+    },
+    {
+      "file": "LunarLander-v3_Dueling_Double_DQN_seed0.json",
+      "original_sha256": "7bcd4d222709111230850b84a277d000b91be1662fb28a371a6d2917faaf868f",
+      "published_sha256": "8c3328eb45bd02e583ffcd9437fea7974ff11c2296516405bc84d18bbbfea34b"
+    },
+    {
+      "file": "LunarLander-v3_Dueling_Double_DQN_seed1.json",
+      "original_sha256": "ea333b6c4fce4798fd7f375591b451d66a7950aa86c39ba43d0bc97fcc4e7c97",
+      "published_sha256": "4eb62e11c81b0eec6bbe2488d64e5ea9197d45b8f6dd4b2617e2278e50c42f1e"
+    },
+    {
+      "file": "LunarLander-v3_Dueling_Double_DQN_seed2.json",
+      "original_sha256": "749d30eb64de47f0bc6672a54182f454975150ea651b8067378b21602b7cfacf",
+      "published_sha256": "45e90c9e392ebbe94d6480a3995522ed8b1640021fceb24e099bed0eb82a366a"
+    },
+    {
+      "file": "LunarLander-v3_Dueling_DQN_seed0.json",
+      "original_sha256": "83631a59695af61c6be5544437d567a9f453c6f9a9901eb36ce8292ef21eec72",
+      "published_sha256": "b343a062a3b4563c738f5ff7abb9ebba693802db42a793dc944d08998a0f46e6"
+    },
+    {
+      "file": "LunarLander-v3_Dueling_DQN_seed1.json",
+      "original_sha256": "2196f181f41cda0b53adcf8faf212cfa9edaae343cec2978fe35ba770c0a152d",
+      "published_sha256": "f946e02d4c6959b596255e1f3d6483d69328c071aa848945f640b2638c38f499"
+    },
+    {
+      "file": "LunarLander-v3_Dueling_DQN_seed2.json",
+      "original_sha256": "fd7c1c48bd352485351e63c05cbe5c4b80962889b0f95dfd1815f43fc3a87262",
+      "published_sha256": "2eabab1f2d97f9966d9005d6c42d4348cad8e59f0554a27a01218391d85a2ada"
+    },
+    {
+      "file": "TreasureGrid-v0_Double_DQN_seed0.json",
+      "original_sha256": "82adecd5a4c31034d952fd356c6e31653b379b1212ab5043a16d10ad3e65f6ff",
+      "published_sha256": "d8e824feeee5e929142458459bf597776125408baf09f1ae1d3dd36dc17e0df1"
+    },
+    {
+      "file": "TreasureGrid-v0_Double_DQN_seed1.json",
+      "original_sha256": "305e2861ad519ad3f070a1490c5f91936206c8eaef36b30ebaf9bbe0276b761a",
+      "published_sha256": "0a3876bff1f6eb6fd3fc68c5ebdd707a29e68e70b9cccd94fcd6078f47e00c32"
+    },
+    {
+      "file": "TreasureGrid-v0_Double_DQN_seed2.json",
+      "original_sha256": "be61d5b92668e4721eb06ba23d4222b8c040e53ed1e14885445d8bfaeb3a88df",
+      "published_sha256": "7b4b4bf7785e56c5a1784194c48b509faffbd57d3411588621feb2c1bb886e45"
+    },
+    {
+      "file": "TreasureGrid-v0_DQN_seed0.json",
+      "original_sha256": "78c50f7938bd6bf51bee57de4a36972cc0c0d49d5ef42bd3371f169012750920",
+      "published_sha256": "4b25bf5de45fb625560865e55d023a4bfba9b7ceeb1103624ad7e4a7f18db65b"
+    },
+    {
+      "file": "TreasureGrid-v0_DQN_seed1.json",
+      "original_sha256": "6e2d14e4ff1e720b4e9d3e4cb4101cc46b66d2c76696a76415465c05fc7bdfa1",
+      "published_sha256": "a269bdbc76a4d80d27ff9b493acd1613c7ea21f231242c20591b4ba3b31e06c0"
+    },
+    {
+      "file": "TreasureGrid-v0_DQN_seed2.json",
+      "original_sha256": "9f957faf4db675a7272cd9909b636a4eee801d200a48399f662dda34089bbfde",
+      "published_sha256": "cf3ec9c9dad5d7563c85b82d4812dcba6d9b335f0a3e56bceb6c6ea82611fbe6"
+    },
+    {
+      "file": "TreasureGrid-v0_Dueling_DQN_seed0.json",
+      "original_sha256": "410bb296a2a984244d7db504531b3b3716610327e7c62280aa511505c0e7c8c3",
+      "published_sha256": "91ba8b36423f34ccc8dde0be2311fa127f8ef1dda9a510e80a861394f8e9aa31"
+    },
+    {
+      "file": "TreasureGrid-v0_Dueling_DQN_seed1.json",
+      "original_sha256": "89d6c68a81b6b2cd26e1ebe983e4d1d34d117a5d0ccac4cf76d7243c478cf29e",
+      "published_sha256": "35838fae9f94e41dcda2f0e93bea388c509dabfe59188704e2624dcdd8fd9a87"
+    },
+    {
+      "file": "TreasureGrid-v0_Dueling_DQN_seed2.json",
+      "original_sha256": "d04be10e7d14c6e1e8bce3aea4da26564f5c9dd8522d13fff37c3d514991e2e1",
+      "published_sha256": "f78656e566d56368dfe24495811049ac2c7ef94c98edd24afb94030a87a61e04"
+    },
+    {
+      "file": "TreasureGrid-v1_Double_DQN_seed0.json",
+      "original_sha256": "c3d0ed02c63d2c46ab826b3959ddfe3d82e25bec0660addaca8c3f8194711a32",
+      "published_sha256": "15acff88a9f762be8d76fa8a38f5f6cbe0f8a21ad875d475e53bb4d147c2ca08"
+    },
+    {
+      "file": "TreasureGrid-v1_Double_DQN_seed1.json",
+      "original_sha256": "3cae5f6003599370b09ff4df7ddf7c09364332b63c755c9971af39dfe3393f53",
+      "published_sha256": "57941c579545dbc402f182d1a32c38d76f2b54ff96632311042fe8bd8a1b156f"
+    },
+    {
+      "file": "TreasureGrid-v1_Double_DQN_seed2.json",
+      "original_sha256": "82f387c1b752112a8da777852f631f6807e140dbf1211651d845b3f1609a9421",
+      "published_sha256": "03f286d34e8eaec89198cd161d25881fe62172490688e9a6dc7c4f0e93fed66c"
+    },
+    {
+      "file": "TreasureGrid-v1_DQN_seed0.json",
+      "original_sha256": "0c1a58ff9f5b9c2ef2904c2939101fde4c3f288fb34e43765c6858c9dc5db8c6",
+      "published_sha256": "2e5089f837f13d10bf22704378e59ee1193c100a99a415633d3f5d57de3090d6"
+    },
+    {
+      "file": "TreasureGrid-v1_DQN_seed1.json",
+      "original_sha256": "646381b3b952da8f473617862d585d1f35419e54e147ff383e0f800cf0c8da9d",
+      "published_sha256": "03383d82ce91d54a09ee36e737fbf25b774dc60e9203a506d55870e344b82773"
+    },
+    {
+      "file": "TreasureGrid-v1_DQN_seed2.json",
+      "original_sha256": "8b7d8756d8111001dc263e19299a1ce99c2c2d6bb630f60a93ec1a031aefb7c0",
+      "published_sha256": "25f44f636477b20256559298056c48533704ee4e29ab6e1fc8d6ad4e5f84e668"
+    },
+    {
+      "file": "TreasureGrid-v1_Dueling_DQN_seed0.json",
+      "original_sha256": "60526bac46a931a0bb9045a252ee0e66d20cf529b30a6a49b576a70582a557af",
+      "published_sha256": "95de54e8063284284c540e65f123a4c729536db3e99b074da0856512a6e91fd3"
+    },
+    {
+      "file": "TreasureGrid-v1_Dueling_DQN_seed1.json",
+      "original_sha256": "37569f58f48e80b05559ac91933aff8a3bec23abe02b1c2fb29eb9353be308d4",
+      "published_sha256": "cd569bf8cb4ac291c375300098396c3413dfbe1f9abc47e6d7b40e4060fef05a"
+    },
+    {
+      "file": "TreasureGrid-v1_Dueling_DQN_seed2.json",
+      "original_sha256": "73080bd45835a9248f605db88b5e883f2923dd4bf3b4d4bb142760ceadc60b5d",
+      "published_sha256": "4da359f27b0484c2942641f2a0accf0defe6aa0d3e2725ec6f7bdd38127f64be"
+    },
+    {
+      "file": "TreasureGrid-v2_Double_DQN_seed0.json",
+      "original_sha256": "ff17f67fce5a4f32eff4a45adb533db0ac570d1dce5f57db473d405644888cad",
+      "published_sha256": "3ca5a2e9987e8012aba8c1d9d67fde1ab60820babb55e83b0ac7447fb3f0ff0c"
+    },
+    {
+      "file": "TreasureGrid-v2_Double_DQN_seed1.json",
+      "original_sha256": "04b84748be22838b9772a74265c7c3906b60e83eb13dca7dab4585daa370d4a4",
+      "published_sha256": "2ad731f4a4be8b82459869dd583ddcb22729f222e1effb1d7b6e7e11954ba641"
+    },
+    {
+      "file": "TreasureGrid-v2_Double_DQN_seed2.json",
+      "original_sha256": "a774db1ddb6939ba59818aaf4666c4c65483a9649b84bc7772aa0b9950d4ce3c",
+      "published_sha256": "b68eb8b670996d8bcc976be5e8233c274f6fb88314f9a49be32bb5554f61e0ea"
+    },
+    {
+      "file": "TreasureGrid-v2_DQN_seed0.json",
+      "original_sha256": "53375cd3650ae32cf9d68e9795bee3fcc2e5c52abedd038792720cb586f6c39c",
+      "published_sha256": "337cb23516d07c77c4a95f442dab1f3240f0d12b2ee0c9cc5afcb590071d3c38"
+    },
+    {
+      "file": "TreasureGrid-v2_DQN_seed1.json",
+      "original_sha256": "fdc4200c9192aeb812a3a72dc4840b76771d89545d47b3776bec8bf9f92eba46",
+      "published_sha256": "8a7ebaffc98c66d9004606ab9c279a664fe49c6cb4f6e78b26646e071d421329"
+    },
+    {
+      "file": "TreasureGrid-v2_DQN_seed2.json",
+      "original_sha256": "2a27a1348708d4855c775a328e236cfaac5bea8c148f7827ff25e13179cb1b8d",
+      "published_sha256": "ce66583216eaec7d6c7cbbb7561b4495acd1dfcf52c92b93d6c02a26342e8422"
+    },
+    {
+      "file": "TreasureGrid-v2_Dueling_DQN_seed0.json",
+      "original_sha256": "fdfbcd2bf822f8dc6bde3a4bef2ab3dbda2e1701abde32cc9f7db72f3df802da",
+      "published_sha256": "119bedaed6ec1c6a2687b71db82b2d0a2faa65f0d919210302ae2d2ecdd8c459"
+    },
+    {
+      "file": "TreasureGrid-v2_Dueling_DQN_seed1.json",
+      "original_sha256": "9408c40c86d070055267b997d144929181913652633fb95004c3e2cfa40a7eb2",
+      "published_sha256": "f9f2c7d092188907ca0b2b36d35421d578b7f03842e05d2580a72869f2d9a494"
+    },
+    {
+      "file": "TreasureGrid-v2_Dueling_DQN_seed2.json",
+      "original_sha256": "079861bf812bbfb9675632389c205d82e1d7bc30d49ecfb7ad4a15ddf760bb27",
+      "published_sha256": "93645d9579c4462878c1b4eb6489e09ee40ede4f6ce6523b5ceac6f7bc779eff"
+    }
+  ]
+}
