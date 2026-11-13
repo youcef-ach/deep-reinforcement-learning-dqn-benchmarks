@@ -24,4 +24,6 @@ checkpoints/
 # Temporary outputs & logs
 *.log
 runs/
+!evidence/runs/
+!evidence/runs/*.json
 
